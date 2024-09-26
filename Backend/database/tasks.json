@@ -1,14 +1,1 @@
-[
-  {
-    "nome": "Pintar Parede",
-    "status": false
-  },
-  {
-    "nome": "Comprar Feijão",
-    "status": false
-  },
-  {
-    "nome": "Lavar Carro",
-    "status": true
-  }
-]
+[]
