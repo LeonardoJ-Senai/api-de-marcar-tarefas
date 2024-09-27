@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "nome": "Andar de Cavalo",
+    "status": "Inconcluida",
+    "id": 0
+  },
+  {
+    "nome": "Jogar Magic MTG",
+    "status": "Inconcluida",
+    "id": 1
+  },
+  {
+    "nome": "tarefa1",
+    "status": "concluida",
+    "id": 2
+  }
+]
