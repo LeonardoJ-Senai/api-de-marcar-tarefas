@@ -1,16 +1,16 @@
 [
   {
-    "nome": "Andar de Cavalo",
-    "status": "Inconcluida",
+    "nome": "tarefa1",
+    "status": "não concluida",
     "id": 0
   },
   {
-    "nome": "Jogar Magic MTG",
-    "status": "Inconcluida",
+    "nome": "tarefa2",
+    "status": "concluida",
     "id": 1
   },
   {
-    "nome": "tarefa1",
+    "nome": "tarefa3",
     "status": "concluida",
     "id": 2
   }

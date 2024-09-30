@@ -48,6 +48,24 @@ app.put("/tarefas/:id",(req,res)=>{
     }
 })
 
+//Deletar um dado (deletar uma tarefa pelo id)
+app.delete("/tarefas/:id",(req,res)=>{
+    const id = parseInt(req.params.id)
+    const sucess = edit_file.deleteItemList(db_path,id)
+    if(sucess){
+        res.status(200).json(edit_file.readList(db_path))
+    }
+    else{
+        res.status(404).send("Não foi encontrado um id: "+id+", igual na lista.")
+    }
+})
+
+//Deletar todas as tarefas
+app.delete("/tarefas",(req,res)=>{
+    edit_file.clearList(db_path)
+    res.status(200).send("Todas as mensagens foram deletadas com sucesso")
+})
+
 app.listen(PORT,()=>{
     console.log(`Servidor funcionando na porta localhost:${PORT}`)
 })
