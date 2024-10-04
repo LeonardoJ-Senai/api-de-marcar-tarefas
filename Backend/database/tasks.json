@@ -1,17 +1,7 @@
 [
   {
-    "nome": "tarefa1",
-    "status": "não concluida",
+    "nome": "nometarefa",
+    "status": "statustarefa",
     "id": 0
-  },
-  {
-    "nome": "tarefa2",
-    "status": "concluida",
-    "id": 1
-  },
-  {
-    "nome": "tarefa3",
-    "status": "concluida",
-    "id": 2
   }
 ]
