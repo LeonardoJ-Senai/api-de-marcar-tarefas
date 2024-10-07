@@ -1,7 +1,17 @@
 [
   {
-    "nome": "nometarefa",
-    "status": "statustarefa",
+    "nome": "Limpar a casa",
+    "status": "Pendente",
     "id": 0
+  },
+  {
+    "nome": "Lavar o carro",
+    "status": "Pendente",
+    "id": 1
+  },
+  {
+    "nome": "Ir para o Senai",
+    "status": "Concluida",
+    "id": 2
   }
 ]

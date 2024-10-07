@@ -74,7 +74,7 @@ function deleteItemList(db_path, id_task) {
 }
 
 // Função para deletar todos os itens da lista
-function clearList() {
+function clearList(db_path) {
     jsonfile.writeFileSync(db_path, [], { spaces: 2 })
 }
 
